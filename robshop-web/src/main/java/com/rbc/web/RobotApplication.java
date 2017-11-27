@@ -20,5 +20,4 @@ public class RobotApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
         SpringApplication.run(RobotApplication.class, args);
     }
-
 }
