@@ -2,8 +2,10 @@
 Robot shop angular 4 , and spring boot
 
 #Installation
+
 run npm install 
 run ng build --dev
+
 run clean package install
 It will generate : robshop-web-0.0.1-SNAPSHOT-exec.jar
 

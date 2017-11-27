@@ -24,28 +24,5 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
    </dependencies>
-   <build>
-        <plugins>
-            <!-- *** RESOURCE PLUGIN *** -->
-			<plugin>
-				<artifactId>maven-resources-plugin</artifactId>
-				<executions>
-				    <!-- copy web-ui dist folder to src/resource/webui -->
-                    <execution>
-						<id>copy-resources</id>
-						<phase>validate</phase>
-						<goals><goal>copy-resources</goal></goals>
-						<configuration>
-                            <outputDirectory>${basedir}/src/main/resources/public</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <directory>${basedir}/src/main/web-ui/dist</directory>
-                                </resource>
-                            </resources>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-        </plugins>
-    </build>
+   
 </project>
